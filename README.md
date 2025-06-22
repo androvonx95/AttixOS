@@ -1,8 +1,9 @@
 # AttixOS
 
+![AttixOS preview](prod/boot.png)
 A minimalist, lightweight operating system based on [attixOS](https://github.com/callmesalmon/attixOS).
 
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html#SEC1)
 
 ## Overview
 AttixOS is a lightweight, minimalist operating system designed. Built as a derivative of [pearlOS](github.com/callmesalmon/pearlOS).
@@ -15,9 +16,17 @@ AttixOS is a lightweight, minimalist operating system designed. Built as a deriv
 ```bash
 git clone https://github.com/androvonx95/AttixOS.git
 cd AttixOS
-make clean && make run
+./configure && make run
+```
+**to uninstall**
+```bash
+make clean
 ```
 
+**obviously fresh builds can be done with**
+```bash
+make clean && ./configure && make run
+```
 ## Contributing
 Contributions are most welcome!!!.
 
