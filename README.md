@@ -5,13 +5,8 @@ A minimalist, lightweight operating system based on [attixOS](https://github.com
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Overview
-AttixOS is a lightweight, minimalist operating system designed for performance and simplicity. Built as a derivative of attixOS, it maintains compatibility while focusing on a streamlined experience.
+AttixOS is a lightweight, minimalist operating system designed. Built as a derivative of [pearlOS](github.com/callmesalmon/pearlOS).
 
-## Features
-- **Lightweight**: Optimized for minimal resource usage
-- **Fast**: Quick boot times and responsive performance
-- **Modular**: Customizable components to fit your needs
-- **Compatible**: Based on the robust attixOS foundation
 
 ## Getting Started
  **checkout the [LICENSE](requirements.txt)**
