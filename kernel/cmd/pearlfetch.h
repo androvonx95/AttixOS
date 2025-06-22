@@ -16,7 +16,7 @@
 #include <cpu/smbios.h>
 
 /* I did NOT make this art btw */
-#define PEARLFETCH_ART \
+#define attixFETCH_ART \
   "           _.-''|''-._         \n" \
   "        .-'     |     `-.      \n" \
   "      .'\\       |       /`.   \n" \
@@ -30,9 +30,9 @@
   "               `-'             \n"
 
 
-void ksh_pearlfetch() {
-  printf(PEARLFETCH_ART);
-  printf("OS: pearlOS %s\n", OS_VERSION);
+void ksh_attixfetch() {
+  printf(attixFETCH_ART);
+  printf("OS: attixOS %s\n", OS_VERSION);
 
   printf("BIOS name: %s\n", smbios_get_bios_name());
   printf("BIOS version: %s\n", smbios_get_bios_version());

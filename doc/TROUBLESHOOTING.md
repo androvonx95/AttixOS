@@ -1,6 +1,6 @@
-# Troubleshooting pearlOS
-This is the troubleshooting guide for pearlOS. In this guide you will learn about common errors
-in pearlOS and how to fix them.
+# Troubleshooting attixOS
+This is the troubleshooting guide for attixOS. In this guide you will learn about common errors
+in attixOS and how to fix them.
 
 ## Common errors and their solutions
 

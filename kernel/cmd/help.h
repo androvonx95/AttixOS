@@ -18,7 +18,7 @@ int ksh_help() {
     println("fortune        digital fortune cookie");
     println("kowsay         a minimal version of cowsay");
     println("version        get OS version");
-    println("pearlfetch     show info about your system");
+    println("attixfetch     show info about your system");
     println("calc           simple calculator");
     println("theme-light    changes the theme to a light theme");
     println("theme-dark     changes the theme to a dark theme");

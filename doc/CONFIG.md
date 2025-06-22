@@ -1,6 +1,6 @@
 # Configuration Guide
 
-PearlOS prides itself in its configuration. It is incredibly easy to use and create
+attixOS prides itself in its configuration. It is incredibly easy to use and create
 new configurations with! Follow this quick tutorial to learn how to make your own!
 
 ## Tutorial
@@ -9,7 +9,7 @@ To start, create a new folder in the "profiles" directory, like this:
 ```console
 mkdir ./profiles/<dir>
 ```
-Enter the directory. PearlOS uses four different config files, these are:
+Enter the directory. attixOS uses four different config files, these are:
 
 - `config.h`   : Main kernel config.
 - `config.asm` : Boot sector config.
@@ -63,7 +63,7 @@ So, a good configuration might be:
 #define KERNEL_STARTUP ksh_start();
 #define KERNEL_UPDATE
 
-#define KSH_PROMPT  "pearl>"
+#define KSH_PROMPT  "attix>"
 #define KSH_COMMENT '#'
 
 #define KERNEL_MEMORY_OFFSET_START 0xffffff

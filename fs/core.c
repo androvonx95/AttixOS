@@ -245,15 +245,15 @@ void mkfs() {
   file_make("os-release");
   file_writes(
     "os-release", 
-    "NAME=\"pearlOS " OS_GENERIC "\"\n"
-    "PRETTY_NAME=\"pearlOS " OS_VERSION "\"\n"
+    "NAME=\"attixOS " OS_GENERIC "\"\n"
+    "PRETTY_NAME=\"attixOS " OS_VERSION "\"\n"
     "VERSION=\" " OS_VERSION " (" OS_GENERIC ")\"\n"
-    "REPO=\"github.com/callmesalmon/pearlOS\"\n"
+    "REPO=\"github.com/callmesalmon/attixOS\"\n"
   );
   file_make("license");
   file_writes(
     "license",
-    "pearlOS is released under the Hippocratic 3.0 License (HL3).\n\n"
+    "attixOS is released under the Hippocratic 3.0 License (HL3).\n\n"
     "The Hippocratic License 3.0 (HL3) aims to confront the potential\n"
     "harms and abuses technology can have on fundamental human rights.\n"
     "It empowers open source communities to establish a clear set of\n"
@@ -264,19 +264,19 @@ void mkfs() {
   file_make("readme");
   file_writes(
     "readme",
-    "Thank you for using pearlOS! Many, many thanks!\n"
+    "Thank you for using attixOS! Many, many thanks!\n"
     "If you've got any questions, type \"help\" to open\n"
     "the KSH manual. You can check out the source code at\n"
-    "\"github.com/callmesalmon/pearlOS\", feel free to contribute!\n"
+    "\"github.com/callmesalmon/attixOS\", feel free to contribute!\n"
     "And with that, enjoy the OS!\n\n"
-    "PEARLOS: Salmon <elis.staaf@proton.me>, Nov 2024.\n"
+    "attixOS: Salmon <elis.staaf@proton.me>, Nov 2024.\n"
     "PIDI-OS: Filip Chovanec <unknown>, Mar 2021.\n"
   );
   file_make("roadmap");
   file_writes(
     "roadmap",
     "---- ROADMAP ----\n\n"
-    "[x]. Get pearlOS to run.\n"
+    "[x]. Get attixOS to run.\n"
     "[x]. Add some extra programs.\n"
     "[ ]. Add a text editor (in progress!)\n"
     "[ ]. Create a warningless C build.\n"

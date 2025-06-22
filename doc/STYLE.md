@@ -1,8 +1,8 @@
 # Style
 
-These are the *official* style guidelines for pearlOS. They include *most*
+These are the *official* style guidelines for attixOS. They include *most*
 of the languages included in the repo. Also, while the
-[.editorconfig](https://github.com/callmesalmon/pearlOS/blob/main/.editorconfig) covers *most* of the things
+[.editorconfig](https://github.com/callmesalmon/attixOS/blob/main/.editorconfig) covers *most* of the things
 covered here, it's important to keep in mind that not *all* of peoples code editors
 support .editorconfigs. Some psychos also disable .editorconfigs on their code
 editors. And with that, let's begin!

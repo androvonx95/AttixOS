@@ -11,7 +11,7 @@
 #define KERNEL_INFO_ENTERED       "Booting..."
 #define KERNEL_INFO_INIT_START    "Initializing..."
 #define KERNEL_INFO_INIT_DONE     "Done!"
-#define KERNEL_INFO_WELCOME       "Welcome to pearlOS!"
+#define KERNEL_INFO_WELCOME       "Welcome to attixOS!"
 #define KERNEL_INFO_SHELL_WELCOME \
 "                                         /$$  /$$$$$$   /$$$$$$ \n" \
 "                                        | $$ /$$__  $$ /$$__  $$\n" \

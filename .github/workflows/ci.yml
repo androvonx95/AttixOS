@@ -33,5 +33,5 @@ jobs:
     - name: Verify build artifacts
       run: |
         ls -la build/
-        [ -f build/pearlos.kernel ] || exit 1
-        [ -f build/pearlos.iso ] || exit 1
+        [ -f build/attixos.kernel ] || exit 1
+        [ -f build/attixos.iso ] || exit 1

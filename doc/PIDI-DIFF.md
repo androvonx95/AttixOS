@@ -9,16 +9,16 @@ these are listed below in the form of:
 ## Additions
 
 Many more extra commands for the userland, such as:
-* [loop](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/loop.h)
-* [fortune](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/fortune.h)
-* [panic](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/panic.h)
-* [alloc](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/alloc.h)
-* [memstat](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/memstat.h)
-* [calc](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/calc.h)
-* [kowsay](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/kowsay.h)
+* [loop](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/loop.h)
+* [fortune](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/fortune.h)
+* [panic](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/panic.h)
+* [alloc](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/alloc.h)
+* [memstat](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/memstat.h)
+* [calc](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/calc.h)
+* [kowsay](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/kowsay.h)
 
 Additions for already existing commands, such as:
-* [pearlfetch](https://github.com/callmesalmon/pearlOS/blob/main/kernel/cmd/pearlfetch.h)\*
+* [attixfetch](https://github.com/callmesalmon/attixOS/blob/main/kernel/cmd/attixfetch.h)\*
 \*: Has been renamed.
 
 Other things have been added to the userland, such as:
@@ -30,51 +30,51 @@ The userland has also been *slightly* modified, including:
 * prompt (which is now "%")
 * renamed commands
 
-The [scripts](https://github.com/callmesalmon/pearlOS/blob/main/scripts) folder has also been modified,
+The [scripts](https://github.com/callmesalmon/attixOS/blob/main/scripts) folder has also been modified,
 modifications include:
 * remove useless timing script
-* minimalize [gencolours.py](https://github.com/callmesalmon/pearlOS/blob/main/scripts/gencolours.py)\*
+* minimalize [gencolours.py](https://github.com/callmesalmon/attixOS/blob/main/scripts/gencolours.py)\*
 \*: Has been renamed (color -> colour)
 
-The [stdlib](https://github.com/callmesalmon/pearlOS/blob/main/lib) of the project has been greatly
+The [stdlib](https://github.com/callmesalmon/attixOS/blob/main/lib) of the project has been greatly
 improved, changes include:
-* [math](https://github.com/callmesalmon/pearlOS/blob/main/lib/math.h)
+* [math](https://github.com/callmesalmon/attixOS/blob/main/lib/math.h)
   * Add infinity, being `x/0`
-* [stddef](https://github.com/callmesalmon/pearlOS/blob/main/lib/stddef.h)
+* [stddef](https://github.com/callmesalmon/attixOS/blob/main/lib/stddef.h)
   * Add a `NULL` value (`(void*)0`)
   * Add `size_t` type (`__SIZE_TYPE__`)
   * Add checks for if a alue has been defined (`#ifdef` and others).
-* [conv](https://github.com/callmesalmon/pearlOS/blob/main/lib/conv.h)
+* [conv](https://github.com/callmesalmon/attixOS/blob/main/lib/conv.h)
   * Add a `str_to_int` function (for userland cmd like `calc`)
   * Add more (and better) macros
-* [io](https://github.com/callmesalmon/pearlOS/blob/main/lib/io.h)
+* [io](https://github.com/callmesalmon/attixOS/blob/main/lib/io.h)
   * Move to stdlib directory
   * Rename functions (`kprints` -> `puts`)
-* [magic](https://github.com/callmesalmon/pearlOS/blob/main/lib/magic.h)
+* [magic](https://github.com/callmesalmon/attixOS/blob/main/lib/magic.h)
   * Add magic.h
   * Add `len` macro (`sizeof(x) / sizeof(x[0])`)
-* [stdint](https://github.com/callmesalmon/pearlOS/blob/main/lib/stdint.h)
+* [stdint](https://github.com/callmesalmon/attixOS/blob/main/lib/stdint.h)
   * Add stdint.h
   * Add `chint` function (is `char` also valid `int`?)
-* [mem](https://github.com/callmesalmon/pearlOS/blob/main/lib/mem.h)
+* [mem](https://github.com/callmesalmon/attixOS/blob/main/lib/mem.h)
   * Move to stdlib directory
   * Fix some comments
   * Format
   * Debug
 
 Also added other, more insignificant things to for example
-[boot](https://github.com/callmesalmon/pearlOS/blob/main/boot).
+[boot](https://github.com/callmesalmon/attixOS/blob/main/boot).
 
-A better [configuration](https://github.com/callmesalmon/pearlOS/blob/main/config)
+A better [configuration](https://github.com/callmesalmon/attixOS/blob/main/config)
 was added. It operates using "profiles" and these "profiles" include different
 configuration files. These are:
-* [config.h](https://github.com/callmesalmon/pearlOS/blob/main/config/config.h)
+* [config.h](https://github.com/callmesalmon/attixOS/blob/main/config/config.h)
   * Includes the kernel config.
   * The only C file of the group.
-* [config.asm](https://github.com/callmesalmon/pearlOS/blob/main/config/config.asm)
+* [config.asm](https://github.com/callmesalmon/attixOS/blob/main/config/config.asm)
   * Configs the boot sector.
   * Error messages.
-* [kentry.asm](https://github.com/callmesalmon/pearlOS/blob/main/config/kentry.asm)
+* [kentry.asm](https://github.com/callmesalmon/attixOS/blob/main/config/kentry.asm)
   * Configs the entry.
   * Maybe don't... Touch this one..?
 

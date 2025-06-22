@@ -10,7 +10,7 @@
 
 char *theme;
 
-#include <kernel/cmd/pearlfetch.h>
+#include <kernel/cmd/attixfetch.h>
 #include <kernel/cmd/list_files.h>
 #include <kernel/cmd/read_file.h>
 #include <kernel/cmd/write_to_file.h>
@@ -79,8 +79,8 @@ byte ksh_interpret(char* command) {
     else if (strcmp(command, "memalloc")) {
         ksh_alloc();
     }
-    else if (strcmp(command, "pearlfetch")) {
-        ksh_pearlfetch();
+    else if (strcmp(command, "attixfetch")) {
+        ksh_attixfetch();
     }
     else if (strcmp(command, "ls")) {
         ksh_list_files();

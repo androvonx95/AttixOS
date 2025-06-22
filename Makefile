@@ -14,8 +14,8 @@ BOOT_DIR = $(ISO_DIR)/boot
 GRUB_DIR = $(BOOT_DIR)/grub
 
 # Output files
-KERNEL = $(BUILD_DIR)/pearlos.kernel
-ISO = $(BUILD_DIR)/pearlos.iso
+KERNEL = $(BUILD_DIR)/attixos.kernel
+ISO = $(BUILD_DIR)/attixos.iso
 
 # Toolchain
 CC = clang

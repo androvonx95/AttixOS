@@ -1,4 +1,4 @@
-/* Linker script for pearlOS with GRUB */
+/* Linker script for attixOS with GRUB */
 
 ENTRY(_start)
 
