@@ -28,7 +28,7 @@ AttixOS is a lightweight, minimalist operating system designed for performance a
 
 ## Building from Source
 ```bash
-git clone https://github.com/yourusername/AttixOS.git
+git clone https://github.com/androvonx95/AttixOS.git
 cd AttixOS
 make clean && make run
 ```
