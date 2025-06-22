@@ -1,0 +1,32 @@
+# Object/Binary files
+*.o
+*.obj
+*.elf
+*.bin
+*.iso
+
+# Archives 
+*.tar
+*.zip
+
+# SWP/TMP files
+*.swp
+*~
+*#
+
+# Debug files
+debug.h
+debug.asm
+
+# Compilation results
+dist/
+mk/
+
+# Profiles
+config/profiles/*
+!config/profiles/default
+
+# Zeptex
+zeptex_upstream/
+zeptex/editor
+zeptex/test.txt
