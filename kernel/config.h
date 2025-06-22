@@ -7,7 +7,7 @@
 #pragma once
 
 /* kernel.c */
-#define DEFAULT_THEME  WHITE_ON_BLUE
+#define DEFAULT_THEME  WHITE_ON_BLACK
 #define KERNEL_STARTUP ksh_start()
 #define KERNEL_UPDATE
 
