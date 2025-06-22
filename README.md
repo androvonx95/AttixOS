@@ -14,17 +14,7 @@ AttixOS is a lightweight, minimalist operating system designed for performance a
 - **Compatible**: Based on the robust attixOS foundation
 
 ## Getting Started
-### Prerequisites
-- x86_64 compatible hardware
-- At least 2GB RAM (4GB recommended)
-- 10GB of free disk space
-- Bootable USB drive
-
-### Installation
-1. Download the latest ISO release
-2. Create a bootable USB using your preferred tool (e.g., `dd`, Etcher)
-3. Boot from the USB drive
-4. Follow the on-screen installation instructions
+ **checkout the [LICENSE](requirements.txt)**
 
 ## Building from Source
 ```bash
