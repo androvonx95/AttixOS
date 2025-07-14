@@ -35,3 +35,5 @@ static idt_register_t idt_reg;
 /* Functions */
 void set_idt_gate(int n, uint32_t handler);
 void apply_idt();
+void dump_idt_entry(int n);
+void idt_init();
